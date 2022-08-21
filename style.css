@@ -8,7 +8,47 @@
   text-align: center;
 }
 
-/* img {
+img {
   width: 100%;
   height: auto;
-} */
+}
+
+/* ======= GLOBAL VARIABLES ========= */
+:root {
+  /* ======= COLORS ========= */
+  /* Primary */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+html {
+  /* 1rem = 16px (User Agent) = 100% (User Agent) */
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--pale-blue);
+  background-image: url('./images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top;
+
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  border-radius: 1.6rem;
+  max-width: 27rem;
+  margin: 5rem auto;
+  background-color: var(--very-pale-blue);
+}
+
+img#illustration {
+  border-radius: 1.6rem 1.6rem 0 0;
+}
