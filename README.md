@@ -16,15 +16,15 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Overview
 
+### Screenshot
+
+![](./screenshots/desktop-screenshot.png)
+
 ### The challenge
 
 Users should be able to:
 
 - See hover states for interactive elements
-
-### Screenshot
-
-![](./screenshots/desktop-screenshot.png)
 
 ### Links
 
